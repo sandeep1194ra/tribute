@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    margin: 1rem;
+}
+
+header {
+    align-content: center;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 10px ;
+}
+
+h2 {
+    margin-bottom: 1rem;
+}
+
+a {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.bottom {
+    padding: 20px;
+}
