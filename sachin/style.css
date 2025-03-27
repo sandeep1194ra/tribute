@@ -1,0 +1,46 @@
+
+
+body {
+    font-size: 1.1rem;
+    background-color: beige;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 10px solid red;
+    border-radius: 2rem;
+    margin: 0 auto 3em;
+    padding: 2em;
+    width: 40em;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    background-color: gold;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    padding: 0.5em;
+}
+
+a {
+    color: blue;
+}
+
+a:hover, a:active {
+    color: gray
+}
+
+a:visited {
+    color: darkblue
+}
+
+table, tr, th, td, caption {
+    border: 2px solid #000
+}
+
+li {
+    list-style-type: square
+}
+
