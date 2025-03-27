@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+
+ body {
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: linear-gradient( to left, green, blue, purple, tomato, brown);
+ }
+
+ nav {
+    background-color: #F7F6C5;
+    border: ridge 5px #f5f26590;
+    padding: 10px auto;
+ }
+
+ nav > ul {
+    list-style-type: none;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 15px 10px;
+ }
+
+ .pri-navigation li {
+    display: flex;
+ }
+
+ .pri-navigation li a,
+ .pri-navigation li a:visited {
+    color: black;
+    font-weight: 600;
+ }
+
+ .pri-navigation li a:hover,
+ .pri-navigation li a:focus {
+    text-decoration: underline;
+    background-color: gold;
+    cursor: pointer;
+ }
+
+ h1 {
+    background-color: #f94449;
+    text-align: center;
+    border: 10px ridge wheat;
+    margin-top: 20px;
+    padding: 10px;
+    color: black;
+ }
+
+ main {
+    color: white;
+    margin: 0 1rem;
+ }
+
+ .left {
+    float: left;
+    margin: 15px;
+    border: solid 3px whitesmoke;
+    padding-bottom: 5px;
+ }
+
+.right {
+    float: right;
+    margin: 15px;
+    border: solid 3px whitesmoke;
+    padding-bottom: 5px;
+ }
+
+ .clear {
+    clear: left;
+ }
+
+ section {
+    display: flow-root;
+ }
+
+ h2 {
+    text-decoration: underline;
+    color: wheat;
+    padding: 15px 0;
+}
+
+figure {
+max-width: 100%;
+max-height: 100%;
+object-fit: cover;
+}
+
+figure img {
+max-width: 100%;
+max-height: 100%;
+object-fit: cover;
+margin: 0 auto;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#main p {
+margin: 10px 0;
+}
+
+a, a:active, a:visited{
+    color: whitesmoke;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+    color: wheat;
+    cursor: pointer;
+}
+
+#awards ul {
+    margin-left: 2rem;
+    list-style-type: square;
+}
+
+#awards li {
+    margin: 10px 0;
+}
+
+#awards li:last-of-type {
+    margin-bottom: 0;
+}
+
+.top {
+    padding: 2rem 0;
+}
+
+footer {
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+    border-top: 3px solid green;
+}
+
+@media (max-width: 700px) {
+body {
+   font-size: 0.8rem;
+}
+    
+nav > ul {
+    flex-wrap: wrap;
+ }
+
+h1 {
+border: 4px ridge #8df0c7ab;
+}
+  }
