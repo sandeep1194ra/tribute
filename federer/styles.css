@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+
+ body {
+    font-size: 1.1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     background-color: #8df0c7ab;
+ }
+
+ nav {
+    background-color: aquamarine;
+    padding: 10px auto;
+    border-bottom: 3px solid #66ddaa;
+ }
+
+ nav > ul {
+    list-style-type: none;
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+ }
+
+ .pri-navigation li {
+    display: flex;
+ }
+
+ .pri-navigation li a,
+ .pri-navigation li a:visited {
+    color: black;
+    font-weight: 600;
+ }
+
+ .pri-navigation li a:hover,
+ .pri-navigation li a:focus {
+    text-decoration: underline;
+    background-color: gold;
+    cursor: pointer;
+ }
+
+ h1 {
+    text-align: center;
+    border: 5px ridge gray;
+    margin-top: 20px;
+    padding: 10px;
+ }
+
+ main {
+    margin: 0 1rem;
+}
+
+ .left {
+    float: left;
+    margin: 15px 10px 15px 0;
+    border: solid 3px gray;
+    padding-bottom: 5px;
+ }
+
+ .right {
+   float: right;
+   margin: 15px 0 15px 10px;
+   border: solid 3px gray;
+   padding-bottom: 5px;
+ }
+
+ .clear {
+    clear: both;
+ }
+
+ section {
+    display: flow-root;
+ }
+
+ h2 {
+    text-decoration: underline;
+    padding: 15px 0;
+ }
+
+#main p {
+margin: 10px 0;
+}
+
+ h3 {
+    padding: 10px 0;
+ }
+
+ figure {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+ }
+
+ figure img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+ }
+
+ figcaption {
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+ }
+
+ table, th, tr, td, caption {
+    border: solid 3px green;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-collapse: collapse;
+    padding: 0.4rem;
+    text-align: center;
+    margin-top: 5px;
+ }
+
+ .table {
+    max-width: 100%;
+    overflow: hidden;
+ }
+
+ a, a:active, a:visited {
+    color: black;
+ }
+
+ a:hover, a:focus {
+    text-decoration: underline;
+    cursor: pointer;
+ }
+
+ #legacy p:last-of-type {
+    margin-bottom: 0;
+}
+
+ .top {
+    padding: 2rem 0;
+ }
+
+ footer {
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+    font-size: larger;
+    border-top: 3px solid green;
+ }
+
+ @media (max-width: 700px) {
+   body {
+   font-size: 0.8rem;
+   }
+     
+   nav > ul {
+    flex-wrap: wrap;    
+ }
+
+   h1 {
+    border: 4px ridge #8df0c7ab;
+ }
+     
+   table, th, tr, td, caption {
+    border: solid 1px green;
+    }
+
+   .table {
+    width: 100%;
+ }
+}
