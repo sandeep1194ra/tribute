@@ -6,6 +6,7 @@
  }
 
  body {
+    font-size: 1.1rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: #8df0c7ab;
     background-image: linear-gradient(to right, #8D9EC6, #8df0c7ab, #A06B9A, #1f2421ab);
@@ -22,7 +23,6 @@ nav > ul {
     display: flex;
     align-items: start;
     justify-content: space-evenly;
-    font-size: 20px;
     padding: 20px;
  }
 
@@ -48,7 +48,6 @@ nav > ul {
     text-align: center;
     border: 10px ridge #8df0c7ab;
     margin-top: 20px;
-    font-size: 50px;
  }
 
  #main {
@@ -130,7 +129,6 @@ margin-top: 20px;
 .aside p {
 padding: 5px 0;
 text-indent: 2rem;
-font-size: 20px;
 }
 
  a {
@@ -164,19 +162,15 @@ footer {
 }
 
 @media (max-width: 700px) {
+    body {
+    font-size: 0.8rem;
+    }
 nav > ul {
     flex-wrap: wrap;
-    font-size: 15px;
-    padding: 20px 10px;
  }
 
 h1 {
-font-size: 30px;
-border: 8px ridge #8df0c7ab;
-}
-
-figure figcaption {
-font-size: 10px;
+border: 4px ridge #8df0c7ab;
 }
 
 table, th, tr, td, caption {
@@ -186,6 +180,5 @@ table, th, tr, td, caption {
 .table {
 width: 100%;
 overflow: hidden;
-font-size: 10px;
 }
 }
