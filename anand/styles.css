@@ -57,6 +57,24 @@
     margin: 0 1rem;
  }
 
+.controls {
+margin-top: 20px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+button {
+width: 80px;
+padding: 5px;
+font-size: 110%;
+font-weight: 600;
+background-color: gold;
+border-radius: 10%;
+text-align: center;
+}
+
  .left {
     float: left;
     margin: 15px;
