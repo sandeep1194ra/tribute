@@ -54,6 +54,23 @@
     margin: 0 1rem;
 }
 
+.controls {
+margin-top: 20px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+button {
+width: 100px;
+padding: 5px;
+font-size: 90%;
+font-weight: 800;
+background-color: gold;
+text-align: center;
+}
+
  .left {
     float: left;
     margin: 15px 10px 15px 0;
