@@ -30,6 +30,10 @@ background-color: gold;
 text-align: center;
 }
 
+#top-next, #btm-next {
+display: none;
+}
+
 h1 {
     text-align: center;
     color: blue;
