@@ -45,6 +45,7 @@ justify-content: space-evenly;
 }
 
 button {
+width: 80px;
 padding: 5px;
 font-size: 110%;
 font-weight: 600;
