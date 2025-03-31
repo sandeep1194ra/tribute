@@ -178,6 +178,10 @@ margin: 10px 0;
     flex-wrap: wrap;    
  }
 
+   button {
+    width: 80px;
+    }
+
    h1 {
     border: 4px ridge #8df0c7ab;
  }
