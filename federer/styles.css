@@ -67,8 +67,12 @@ width: 100px;
 padding: 5px;
 font-size: 90%;
 font-weight: 800;
-background-color: gold;
+background-color: aquamarine;
 text-align: center;
+}
+
+button:hover {
+background-color: #8df0c7ab;
 }
 
  .left {
