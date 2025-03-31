@@ -69,12 +69,12 @@ width: 100px;
 padding: 5px;
 font-size: 90%;
 font-weight: 800;
-background-color: #8df0c7ab;
+background-color: #acb8d5c2;
 text-align: center;
 }
 
 button:hover {
-background-color: #acb8d5c2;
+background-color: #8df0c7ab;
 }
 
  .right {
