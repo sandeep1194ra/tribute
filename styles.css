@@ -53,6 +53,10 @@ background-color: gold;
 text-align: center;
 }
 
+button:hover {
+background-color: wheat;
+}
+
 #top-previous, #btm-previous {
 display: none;
 }
