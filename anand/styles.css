@@ -70,8 +70,12 @@ width: 100px;
 padding: 5px;
 font-size: 90%;
 font-weight: 800;
-background-color: gold;
+background-color: wheat;
 text-align: center;
+}
+
+button:hover {
+background-color: #f94449;
 }
 
  .left {
