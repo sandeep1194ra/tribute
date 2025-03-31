@@ -30,6 +30,11 @@ background-color: gold;
 text-align: center;
 }
 
+button:hover {
+background-color: beige;
+border: 1px solid black;
+}
+
 #top-next, #btm-next {
 display: none;
 }
