@@ -45,6 +45,17 @@ h1 {
     background-color: gold;
 }
 
+figure {
+ width: 80%;
+ margin: 20px auto;
+}
+
+figure img {
+width: 100%;
+height: auto;
+border: 1px solid black;
+}
+
 figcaption {
     font-style: italic;
     text-align: center;
