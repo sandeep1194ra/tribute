@@ -68,8 +68,14 @@ width: 100px;
 padding: 5px;
 font-size: 90%;
 font-weight: 800;
-background-color: gold;
+background-color: whitesmoke;
 text-align: center;
+}
+
+button:hover {
+background-color: #131e3a;
+color: whitesmoke;
+border: 1px solid whitesmoke;
 }
 
  .left {
