@@ -62,8 +62,12 @@ width: 100px;
 padding: 5px;
 font-size: 90%;
 font-weight: 800;
-background-color: gold;
+background-color: pink;
 text-align: center;
+}
+
+button:hover {
+background-color: #fa86c4;
 }
 
  h1 {
