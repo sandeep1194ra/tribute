@@ -75,7 +75,8 @@ text-align: center;
 }
 
 button:hover {
-background-color: #f94449
+background-color: #f94449;
+border: 1px solid wheat;
 }
 
  .left {
